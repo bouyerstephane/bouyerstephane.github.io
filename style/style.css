@@ -5,6 +5,7 @@ body{
 	width: 1200px;
 	margin:0 auto;
 	display: flex;
+	flex-direction: row-reverse;
 }
 
 h1{
@@ -12,11 +13,14 @@ h1{
 	text-align: center;
 }
 
-p{
+p,h2{
 	color: #555555;
 }
 
 #left{
-	width: 30%;
+	width: 300px;
 	background-color: #FECA07 ;
+}
+#right{
+	width: 900px;
 }
