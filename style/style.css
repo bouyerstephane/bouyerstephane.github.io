@@ -1,49 +1,96 @@
-html{
-	font-size: 62.5%;
-}
-body{
-	margin: 0 ;
-}
-#blockpage{
-	width: 99.2rem;
-	margin:0 auto;
-	display: flex;
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-	margin: 0 auto;
-	text-align: center;
+body {
+    margin: 0;
 }
 
-p,h2{
-	color: #555555;
+#blockpage {
+    width: 99.2rem;
+    margin: 0 auto;
+    display: flex;
 }
 
-#left{
-	width: 30rem;
-	background-color: #fecf0a ;
+p {
+    color: #555555;
 }
 
-img{
-	display: block;
-	margin: 1rem auto;
-	width: 18rem;
-	height: auto;
-	border: solid #e9ba28 0.4rem;
-	border-radius: 10rem;
-
-}
-#right{
-	width:66rem;
+#left {
+    width: 30rem;
+    background-color: #fecf0a;
 }
 
-article p{
-	margin-left: 3.5rem;
-	margin-right: 3.5rem;
+img {
+    display: block;
+    margin: 1rem auto;
+    width: 18rem;
+    height: auto;
+    border: solid #e9ba28 0.4rem;
+    border-radius: 10rem;
+
 }
 
-article h3{
-	text-align: center;
-	background-color: #4b4b4b;
-	color: #fecf0a;
+#left section p {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+#left section h3 {
+    text-align: center;
+    background-color: #4b4b4b;
+    color: #fecf0a;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.8rem;
+}
+
+#right {
+    width: 66rem;
+    padding-left: 3rem;
+    padding-top: 4rem
+}
+
+h1 {
+    font-size:5rem;
+}
+
+h1 span{
+    color: #fecf0a;
+}
+
+h2{
+    color: #555555;
+    font-size: 2.5rem;
+}
+hr{
+    border: solid #fecf0a 0.1rem;
+}
+header hr{
+    margin-left: 0;
+    margin-top: 0;
+    width: 7.5rem;
+
+}
+#right h3{
+    font-size: 2rem;
+}
+#right i{
+    color: #fecf0a;
+}
+ul{
+}
+#formation section, #experience section {
+
+    display: flex;
+     flex-wrap: wrap;
+}
+#formation div, #experience div{
+   width: 78%;
+    margin-bottom: 1.5rem;
+}
+
+#formation section p:first-child, #experience section p:first-child{
+    width: 22%;
 }
