@@ -13,13 +13,14 @@ body {
     display: flex;
 }
 
-p {
+p,h2,h4,h5 {
     color: #555555;
 }
-
+/************** LEFT ****************/
 #left {
     width: 30rem;
     background-color: #fecf0a;
+    position: relative;
 }
 
 img {
@@ -28,7 +29,7 @@ img {
     width: 18rem;
     height: auto;
     border: solid #e9ba28 0.4rem;
-    border-radius: 10rem;
+    border-radius: 100%;
 
 }
 
@@ -44,53 +45,100 @@ img {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+#contact{
+    margin-bottom: 1.5rem;
+}
+#loisir{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#loisir h3{
+    width: 100%;
 }
 
+#loisir i{
+    font-size: 3rem;
+    color: #4b4b4b;
+    border: solid #4b4b4b 1px;
+    margin: 0 auto 1.5rem;
+    border-radius: 100%;
+    width: 5.6rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/****************** RIGHT *************/
+
 #right {
-    width: 66rem;
-    padding-left: 3rem;
-    padding-top: 4rem
+width: 66rem;
+padding-left: 3rem;
+padding-top: 4rem
 }
 
 h1 {
-    font-size:5rem;
+font-size:5rem;
 }
 
 h1 span{
-    color: #fecf0a;
+color: #fecf0a;
 }
 
 h2{
-    color: #555555;
-    font-size: 2.5rem;
+font-size: 2.5rem;
 }
+
 hr{
-    border: solid #fecf0a 0.1rem;
+border: solid #fecf0a 0.1rem;
 }
 header hr{
-    margin-left: 0;
-    margin-top: 0;
-    width: 7.5rem;
+float: left;
+margin-top: 0;
+width: 7.5rem;
 
 }
 #right h3{
-    font-size: 2rem;
+font-size: 2rem;
 }
+
+
 #right i{
-    color: #fecf0a;
+color: #fecf0a;
 }
-ul{
+
+#formation{
+    margin-top: 7rem;
 }
 #formation section, #experience section {
 
-    display: flex;
-     flex-wrap: wrap;
+display: flex;
+ flex-wrap: wrap;
 }
 #formation div, #experience div{
-   width: 78%;
-    margin-bottom: 1.5rem;
+width: 78%;
+margin-bottom: 1.5rem;
 }
 
 #formation section p:first-child, #experience section p:first-child{
-    width: 22%;
+width: 22%;
+}
+
+#recommandations {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-bottom: 5rem;
+}
+#recommandations h3,#recommandations hr{
+width: 100%;
+}
+
+#recommandations h5{
+    margin-bottom: 0;
 }
