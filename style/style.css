@@ -10,7 +10,7 @@ body {
 }
 
 #blockpage {
-    max-width: 96.0rem;
+    width: 96.0rem;
     margin: 0 auto;
     display: flex;
 }
@@ -31,7 +31,7 @@ a:hover{
 
 /************** LEFT ****************/
 #left {
-    max-width: 31%;
+    width: 31%;
     background-color: #262c3a;
     position: relative;
 }
@@ -66,10 +66,13 @@ img {
 
 #contact {
     margin-bottom: 1.5rem;
+    overflow: hidden;
 }
 
 #contact a{
     color: white;
+    display: block;
+    box-sizing: border-box;
 }
 
 
@@ -108,7 +111,7 @@ img {
 /****************** RIGHT *************/
 
 #right {
-    max-width: 69%;
+    width: 69%;
     padding-left: 3rem;
     padding-top: 4rem
 }
@@ -208,13 +211,46 @@ header hr {
 {
     #blockpage {
        max-width: 72.0rem;
-        background: blue;
     }
 }
 
 @media all and (max-width: 768px){
     #blockpage{
         max-width:540px;
-        background: green;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
+    #left{
+        width: 100%;
+    }
+    #left section{
+        margin-bottom: 3rem;
+    }
+    #contact{
+        text-align: center;
+    }
+    #propos p{
+        padding:0 8rem; ;
+    }
+    #loisir{
+        position: inherit;
+    }
+    #loisir h3{
+        margin-bottom: 3rem;
+    }
+    #right{
+        width: 100%;
+    }
+    /**
+    #formation, #experience{
+        text-align: center;
+    }
+    #formation div, #experience div {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #formation section p:first-child, #experience section p:first-child {
+        width: 100%;
+    } **/
 }
