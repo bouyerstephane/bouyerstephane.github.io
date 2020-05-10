@@ -41,7 +41,6 @@ a:hover{
 }
 
 img {
-    display: block;
     margin: 1rem auto;
     width: 18rem;
     height: auto;
@@ -126,6 +125,11 @@ h1 span {
 
 h2 {
     font-size: 2.5rem;
+
+}
+h2 span{
+    border-bottom: 0.2rem solid #2578ce;
+    padding-bottom: 0.5rem;
 }
 
 h4 {
@@ -134,21 +138,10 @@ h4 {
     font-weight: bold;
 }
 
-hr {
-    border: solid #2578ce 0.1rem;
-}
-
-header hr {
-    float: left;
-    margin-top: 0;
-    width: 7.5rem;
-
-}
-
 #right h3 {
     font-size: 2rem;
+    border-bottom: solid #2578ce 0.2rem;
 }
-
 
 #right i {
     color: #2578ce;
@@ -207,50 +200,79 @@ header hr {
    color:#555555;
 }
 
-@media all and (max-width: 992px)
+
+@media all and (max-width: 991px)
 {
     #blockpage {
        max-width: 72.0rem;
     }
+
 }
+
 
 @media all and (max-width: 768px){
     #blockpage{
-        max-width:540px;
+        max-width:76.8rem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        position: relative;
+
     }
+
     #left{
         width: 100%;
+       /* margin-top: 18rem;*/
+        position: initial;
     }
     #left section{
         margin-bottom: 3rem;
+    }
+  img{
+        position: absolute;
+        margin-top: 3rem;
+        top :0;
+        left: 0;
+        right: 0;
+        border: solid #2578ce 0.4rem;
+    }
+    #formation{
+        margin-top: 0;
     }
     #contact{
         text-align: center;
     }
     #propos p{
-        padding:0 8rem; ;
+        text-align: justify;
+        padding:0 17rem;
     }
     #loisir{
-        position: inherit;
+        position: initial;
     }
     #loisir h3{
         margin-bottom: 3rem;
     }
+    #recommandations{
+        margin-bottom: 3rem;
+    }
     #right{
+        margin-top: 18rem;
         width: 100%;
+        padding-right: 3rem;
     }
-    /**
-    #formation, #experience{
-        text-align: center;
+     header{
+         margin-bottom: 5rem;
+ }
+     h1,h2{
+         text-align: center;
+     }
+}
+
+@media all and (max-width: 576px) {
+    #blockpage {
+        width: auto;
     }
-    #formation div, #experience div {
-        width: 100%;
-        margin-bottom: 1.5rem;
+    #propos p{
+        padding:0 3rem;
     }
-    #formation section p:first-child, #experience section p:first-child {
-        width: 100%;
-    } **/
 }
