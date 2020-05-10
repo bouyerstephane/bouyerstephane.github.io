@@ -1,14 +1,16 @@
 html {
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+
 }
+
 
 body {
     margin: 0;
 }
 
 #blockpage {
-    width: 99.2rem;
+    max-width: 96.0rem;
     margin: 0 auto;
     display: flex;
 }
@@ -29,7 +31,7 @@ a:hover{
 
 /************** LEFT ****************/
 #left {
-    width: 30rem;
+    max-width: 31%;
     background-color: #262c3a;
     position: relative;
 }
@@ -106,7 +108,7 @@ img {
 /****************** RIGHT *************/
 
 #right {
-    width: 66rem;
+    max-width: 69%;
     padding-left: 3rem;
     padding-top: 4rem
 }
@@ -200,4 +202,19 @@ header hr {
 }
 #recommandations a{
    color:#555555;
+}
+
+@media all and (max-width: 992px)
+{
+    #blockpage {
+       max-width: 72.0rem;
+        background: blue;
+    }
+}
+
+@media all and (max-width: 768px){
+    #blockpage{
+        max-width:540px;
+        background: green;
+    }
 }
