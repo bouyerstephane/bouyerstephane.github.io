@@ -35,7 +35,6 @@ h1, h2 {
     text-align: initial;
 }
 
-
 @media all and (max-width: 991px) {
     #blockpage {
         max-width: 72.0rem;
