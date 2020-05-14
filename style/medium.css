@@ -1,0 +1,44 @@
+#blockpage {
+    width: 76.8rem;
+    flex-direction: row;
+}
+
+/************** LEFT ****************/
+
+#left {
+    width: 31%;
+    position: relative;
+}
+img {
+    position: initial;
+    margin: 1rem auto;
+    border-color: #00304f;
+}
+
+#about p{
+    padding: initial;
+}
+
+#hobby {
+    position: absolute;
+    bottom: 0;
+
+}
+
+/****************** RIGHT *************/
+#right {
+    width: 69%;
+    margin-top: 0;
+    padding-right: 0;
+}
+h1, h2 {
+    text-align: initial;
+}
+
+
+@media all and (max-width: 991px) {
+    #blockpage {
+        max-width: 72.0rem;
+    }
+
+}

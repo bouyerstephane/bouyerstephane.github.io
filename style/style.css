@@ -1,111 +1,34 @@
-html {
-    font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-
-body {
-    margin: 0;
-}
-
 #blockpage {
     width: 96.0rem;
-    margin: 0 auto;
-    display: flex;
+    flex-direction: row;
 }
 
-p, h2, h4, h5 {
-    color: #555555;
-}
-p{
-    font-size: 1.1rem;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /************** LEFT ****************/
+
 #left {
     width: 31%;
-    background-color: #262c3a;
     position: relative;
 }
-
-#left p {
-    color: white;
-}
-
 img {
+    position: initial;
     margin: 1rem auto;
-    width: 18rem;
-    height: auto;
-    border: solid #00304f 0.4rem;
-    border-radius: 100%;
-
-}
-#left p {
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    border-color: #00304f;
 }
 
-#left h3 {
-    text-align: center;
-    background-color: #4ea4dd;
-    color: #262c3a;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-}
-
-#contact {
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-}
-
-#contact a{
-    color: white;
-    display: block;
-    box-sizing: border-box;
-}
-
-
-#contact p{
-    margin-bottom: 1rem;
-}
 #propos p{
-    font-size: 1.3rem;
+    padding: initial;
 }
+
 #loisir {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
 }
 
-#loisir h3 {
-    width: 100%;
-}
 
-#loisir i {
-    font-size: 3rem;
-    color: white;
-    border: solid white 1px;
-    margin: 0 auto 1.5rem;
-    border-radius: 100%;
-    width: 5.6rem;
-    height: 5.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 /****************** RIGHT *************/
 
@@ -127,7 +50,8 @@ h2 {
     font-size: 2.5rem;
 
 }
-h2 span{
+
+h2 span {
     border-bottom: 0.2rem solid #2578ce;
     padding-bottom: 0.5rem;
 }
@@ -146,28 +70,31 @@ h4 {
 #right i {
     color: #2578ce;
 }
-#right ul{
+
+#right ul {
     padding-left: 1.2rem;
 }
-#right li{
+
+#right li {
     list-style-type: none;
-   background: url("../img/puce.png") no-repeat;
+    background: url("../img/puce.png") no-repeat;
     background-position: left 0.3rem top 1.3rem;
     background-size: 0.8rem;
     padding-left: 2.2rem;
 
 }
 
-#right li:first-child{
+#right li:first-child {
     background: url("../img/puce_1.png") no-repeat left top 1.3rem;
     background-size: 1.2rem;
 }
+
 #formation {
     margin-top: 7rem;
 }
 
 #formation section, #experience section {
-    display:inline-flex;
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
 
@@ -185,9 +112,11 @@ h4 {
 #recommandations {
     margin-bottom: 5rem;
 }
-#recommandations section{
+
+#recommandations section {
     text-align: center;
 }
+
 #recommandations h3, #recommandations hr {
     width: 100%;
 }
@@ -196,83 +125,15 @@ h4 {
     margin-bottom: 0%;
     font-size: 1.2rem;
 }
-#recommandations a{
-   color:#555555;
+
+#recommandations a {
+    color: #555555;
 }
 
 
-@media all and (max-width: 991px)
-{
+@media all and (max-width: 991px) {
     #blockpage {
-       max-width: 72.0rem;
+        max-width: 72.0rem;
     }
 
-}
-
-
-@media all and (max-width: 768px){
-    #blockpage{
-        max-width:76.8rem;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        position: relative;
-
-    }
-
-    #left{
-        width: 100%;
-       /* margin-top: 18rem;*/
-        position: initial;
-    }
-    #left section{
-        margin-bottom: 3rem;
-    }
-  img{
-        position: absolute;
-        margin-top: 3rem;
-        top :0;
-        left: 0;
-        right: 0;
-        border: solid #2578ce 0.4rem;
-    }
-    #formation{
-        margin-top: 0;
-    }
-    #contact{
-        text-align: center;
-    }
-    #propos p{
-        text-align: justify;
-        padding:0 17rem;
-    }
-    #loisir{
-        position: initial;
-    }
-    #loisir h3{
-        margin-bottom: 3rem;
-    }
-    #recommandations{
-        margin-bottom: 3rem;
-    }
-    #right{
-        margin-top: 18rem;
-        width: 100%;
-        padding-right: 3rem;
-    }
-     header{
-         margin-bottom: 5rem;
- }
-     h1,h2{
-         text-align: center;
-     }
-}
-
-@media all and (max-width: 576px) {
-    #blockpage {
-        width: auto;
-    }
-    #propos p{
-        padding:0 3rem;
-    }
 }

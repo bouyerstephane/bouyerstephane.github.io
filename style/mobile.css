@@ -1,0 +1,251 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+#blockpage {
+    width: 45rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+p, h2, h4, h5 {
+    color: #555555;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#propos p {
+    padding: 0 3rem;
+}
+
+
+/************** LEFT ****************/
+
+#left {
+    width: 100%;
+    background-color: #262c3a;
+
+}
+
+#left p {
+    color: white;
+}
+
+img {
+    margin: 1rem auto;
+    width: 18rem;
+    height: auto;
+    border: solid #00304f 0.4rem;
+    border-radius: 100%;
+}
+
+img {
+    position: absolute;
+    width: 18rem;
+    height: auto;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    border: solid #2578ce 0.4rem;
+    border-radius: 100%;
+}
+
+#left section {
+    margin-bottom: 3rem;
+}
+
+#left h3 {
+    text-align: center;
+    background-color: #4ea4dd;
+    color: #262c3a;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#left p {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+#formation {
+    margin-top: 0;
+}
+
+#contact {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact p {
+    margin-bottom: 1rem;
+}
+
+#about p {
+    text-align: justify;
+    padding: 0 13rem;
+}
+
+#hobby {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#hobby h3 {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#hobby i {
+    font-size: 3rem;
+    color: white;
+    border: solid white 1px;
+    margin: 0 auto 1.5rem;
+    border-radius: 100%;
+    width: 5.6rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/****************** RIGHT *************/
+
+#right {
+    margin-top: 18rem;
+    width: 100%;
+    padding: 4rem 3rem 0;
+}
+
+
+header {
+    margin-bottom: 5rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h1 span {
+    color: #2578ce;
+}
+
+h2 {
+    font-size: 2.5rem;
+
+}
+
+h2 span {
+    border-bottom: 0.2rem solid #2578ce;
+    padding-bottom: 0.5rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#right h3 {
+    font-size: 2rem;
+    border-bottom: solid #2578ce 0.2rem;
+}
+
+#right i {
+    color: #2578ce;
+}
+
+#right ul {
+    padding-left: 1.2rem;
+}
+
+#right li {
+    list-style-type: none;
+    background: url("../img/puce.png") no-repeat;
+    background-position: left 0.3rem top 1.3rem;
+    background-size: 0.8rem;
+    padding-left: 2.2rem;
+
+}
+
+#right li:first-child {
+    background: url("../img/puce_1.png") no-repeat left top 1.3rem;
+    background-size: 1.2rem;
+}
+
+#formation {
+    margin-top: 7rem;
+}
+
+#formation section, #experience section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+#formation div, #experience div {
+    width: 75%;
+    margin-bottom: 1.5rem;
+}
+
+#formation section p:first-child, #experience section p:first-child {
+    width: 25%;
+}
+
+#recommendation {
+    margin-bottom: 3rem;
+}
+
+#recommendation section {
+    text-align: center;
+}
+
+#recommendation h3, #recommendation hr {
+    width: 100%;
+}
+
+#recommendation h5 {
+    margin-bottom: 0%;
+    font-size: 1.2rem;
+}
+
+#recommendation a {
+    color: #555555;
+}
+
+
+
+
