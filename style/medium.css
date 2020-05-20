@@ -14,7 +14,10 @@ img {
     margin: 1rem auto;
     border-color: #00304f;
 }
+#contact{
+    text-align: initial;
 
+}
 #about p{
     padding: initial;
 }
