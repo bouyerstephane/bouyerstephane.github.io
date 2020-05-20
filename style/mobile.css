@@ -41,7 +41,6 @@ a:hover {
 #left {
     width: 100%;
     background-color: #262c3a;
-
 }
 
 #left p {
@@ -50,13 +49,6 @@ a:hover {
 
 img {
     margin: 1rem auto;
-    width: 18rem;
-    height: auto;
-    border: solid #00304f 0.4rem;
-    border-radius: 100%;
-}
-
-img {
     position: absolute;
     width: 18rem;
     height: auto;
@@ -107,8 +99,6 @@ img {
     text-align: justify;
     padding: 0 3rem;
 }
-
-
 
 #hobby {
     width: 100%;
@@ -192,15 +182,14 @@ h4 {
 
 #right li {
     list-style-type: none;
-    background: url("../img/puce.png") no-repeat;
-    background-position: left 0.3rem top 1.3rem;
+    background: url("../img/puce.png") no-repeat left 0.3rem top 1.3rem;
     background-size: 0.8rem;
     padding-left: 2.2rem;
 
 }
 
 #right li:first-child {
-    background: url("../img/puce_1.png") no-repeat left top 1.3rem;
+    background: url("../img/puce_1.png") no-repeat left top 1.2rem;
     background-size: 1.2rem;
 }
 
@@ -215,7 +204,7 @@ h4 {
 
 }
 
-#formation div, #experience div {
+.div_li_content {
     width: 75%;
     margin-bottom: 1.5rem;
 }
@@ -237,7 +226,7 @@ h4 {
 }
 
 #recommendation h5 {
-    margin-bottom: 0%;
+    margin-bottom: 0;
     font-size: 1.2rem;
 }
 
