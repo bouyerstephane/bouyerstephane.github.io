@@ -74,8 +74,7 @@ img {
 }
 
 #left p {
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin: 0 3.5rem;
 }
 
 #formation {
@@ -221,7 +220,7 @@ h4 {
     text-align: center;
 }
 
-#recommendation h3, #recommendation hr {
+#recommendation h3{
     width: 100%;
 }
 

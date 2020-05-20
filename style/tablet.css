@@ -1,3 +1,5 @@
-#blockpage{
-    width:57.6rem;
+#recommendation{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
