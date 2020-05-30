@@ -23,11 +23,11 @@ p{
 .btn {
   @extend %btn;
   text-decoration: none;
-  background: rgb(99,122,255);
+  background: rgb(35, 71, 248);
   color: white;
 
   &:hover {
-    background: rgb(45, 65, 194);
+    background: rgb(19, 36, 147);
   }
 
 }
