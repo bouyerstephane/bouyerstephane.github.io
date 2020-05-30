@@ -1,0 +1,42 @@
+@import "libs/normalize.scss";
+
+/************************** START ******************************/
+body{
+  width: 62.5%;
+  background: #ffffff;
+  font-family: sans-serif;
+}
+p{
+  margin:1rem;
+}
+#blockpage{
+  width: 60%;
+  margin: 0 auto;
+}
+
+%btn {
+  padding: 5px 12px;
+  border-radius: 3px;
+
+}
+
+.btn {
+  @extend %btn;
+  text-decoration: none;
+  background: rgb(99,122,255);
+  color: white;
+
+  &:hover {
+    background: rgb(45, 65, 194);
+  }
+
+}
+
+.btn-delete{
+  @extend .btn;
+  background: #a13e3e;
+  &:hover{
+    background: #872020;
+  }
+
+}
