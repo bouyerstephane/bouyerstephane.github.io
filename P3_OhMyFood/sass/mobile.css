@@ -72,45 +72,82 @@ select {
   }
 }
 /************************** START ******************************/
-body {
-  width: 62.5%;
-  background: #ffffff;
+html {
+  font-size: 62.5%;
   font-family: sans-serif;
 }
 
-p {
-  margin: 1rem;
-}
-
-#blockpage {
-  width: 60%;
+body {
   margin: 0 auto;
 }
 
-.btn {
-  color: #192a56;
-  background-color: #fff;
+#blockpage {
+  width: 100%;
+  font-size: 1.4rem;
+  margin: 0 auto;
 }
-/*
-.btn {
-  @extend %btn;
+
+a {
   text-decoration: none;
-  background: rgb(35, 71, 248);
-  color: white;
-
-  &:hover {
-    background: rgb(19, 36, 147);
-  }
-
 }
 
-.btn-delete{
-  @extend .btn;
-  background: #a13e3e;
-  &:hover{
-    background: #872020;
-  }
+header {
+  background: #579c87;
+  text-align: center;
+}
+header h1 {
+  color: #fdcb46;
+}
 
-}*/
+/************************** Cards ******************************/
+.card1 {
+  background: #fcdfdb;
+}
 
-/*# sourceMappingURL=style.css.map */
+.card2 {
+  background: #fff5fe;
+}
+
+.card3 {
+  background: #f9f9f9;
+}
+
+.card4 {
+  background: #fdfffd;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav section {
+  margin: 3rem auto 0;
+  width: 90%;
+  height: 45rem;
+  box-shadow: 0 0 0.8rem 0.1rem #929292;
+}
+nav a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/************************** Footer ******************************/
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 3rem;
+  background: #579c87;
+  font-size: 1.8rem;
+}
+footer a {
+  color: #fdcb46;
+}
+
+/*# sourceMappingURL=mobile.css.map */
