@@ -92,7 +92,7 @@ img {
 
 #contact p {
     margin-bottom: 1rem;
-    }
+}
 
 #about p {
     text-align: justify;
@@ -200,6 +200,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
 }
 
 .div_li_content {
